@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+
+    display: flex;
+    
+    background-color:white;
+    
+    color: white;
+    
+    align-items: center;
+}
+.nav img {
+    
+    margin: 0 30px;
+    
+}
+header {
+    background-color: transparent;
+    text-align: center;
+}
+
+
+nav {
+    background-color:  #800000; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS for adding white underline to the General li tag */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 10px;
+    
+}
+
+.general {
+    color: black; /* Text color */
+    border-bottom: 2px solid white; /* Add white underline to all li elements */
+}
+
+.general:hover {
+    border-bottom: 2px solid black; /* Change the underline color on hover */
+}
+
+.logout {
+    border-bottom: none; /* Remove the underline for the Logout link */
+}
+
+.disabled {
+    pointer-events: none; /* Disable pointer events */
+}
+
+.cottage-image {
+    width: 150px;
+}
+
+.section {
+    margin: 50px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* CSS for the two-column layout */
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Adjust spacing between columns */
+}
+
+.column {
+    width: 48%; /* Adjust width as needed */
+    box-sizing: border-box;
+}
+
+/* Styles for the form fields in the columns */
+.column label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.column input[type="text"],
+.column input[type="number"],
+.column input[type="date"],
+.column select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* submit */
+/* Style for the submit button */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #800000; /* Reddish-brown color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center align text */
+}
+
+.submit-button:hover {
+    background-color: #5a0000; /* Darker shade of red on hover */
+}
+
+/* Style for the form section heading */
+.section h2 {
+    margin-top: 0;
+}
+
+/* Style for required fields with asterisk */
+.column label.required::after {
+    content: '*'; /* Add asterisk */
+    color: #800000; /* Red color for the asterisk */
+}
+
+/* Communication Section */ 
+
+#communication h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#communication .column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#communication .column {
+    width: 48%; /* Adjust width if needed */
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+#communication-form-column1 label,
+#communication-form-column2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#communication-form-column1 input[type="text"],
+#communication-form-column2 input[type="text"],
+#communication-form-column1 input[type="email"],
+#communication-form-column2 input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#communication-form-column1 input[type="text"]:focus,
+#communication-form-column2 input[type="text"]:focus,
+#communication-form-column1 input[type="email"]:focus,
+#communication-form-column2 input[type="url"]:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight color on focus */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.previous-button,
+.next-button {
+    width: calc(50% - 5px); 
+    padding: 10px;
+    background-color: #800000; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #800000; /* Adjust hover colors as needed */
+}
+
+.previous-button {
+    margin-right: 5px; /* Adjust margin between buttons */
+}
+
+.next-button {
+    margin-left: 5px; /* Adjust margin between buttons */
+}
+
+
+/* tax-information 
+/* Styles for the two-column layout */
+#tax-information .column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tax-information .column {
+    width: 48%; /* Adjust width if needed */
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+/* Styles for the form fields in the columns */
+#tax-information form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#tax-information form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.previous-button,
+.next-button {
+    width: calc(50% - 5px); /* Adjust width and margin between buttons */
+    padding: 10px;
+    background-color: #800000; /* Adjust colors as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #800000; /* Adjust hover colors as needed */
+}
+
+.previous-button {
+    margin-right: 5px; /* Adjust margin between buttons */
+}
+
+.next-button {
+    margin-left: 5px; /* Adjust margin between buttons */
+}
+
+/* Styles for the CCIC section */
+
+/* Styles for the two-column layout */
+#ccic .column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ccic .column {
+    width: 48%; /* Adjust width if needed */
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+/* Styles for the form fields in the columns */
+#ccic form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#ccic form input[type="text"],
+#ccic form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.previous-button,
+.next-button {
+    width: calc(50% - 5px); /* Adjust width and margin between buttons */
+    padding: 10px;
+    background-color: #800000; /* Adjust colors as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #800000; /* Adjust hover colors as needed */
+}
+
+.previous-button {
+    margin-right: 5px; /* Adjust margin between buttons */
+}
+
+.next-button {
+    margin-left: 5px; /* Adjust margin between buttons */
+}
+
+
+
+/* Styles for the sign-out button */
+#sign-out-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* upload image for communication section */
+.upload-container {
+    margin-bottom: 20px;
+}
+
+.upload-preview{
+    display: block;
+    margin-top: 10px;
+    width: 200px; /* Adjust width and height as needed */
+    height: 200px;
+    border: 1px solid #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.session-image-preview{
+    width: 200px;
+    height: 100px;
+}
+
+.contact-info {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.contact-info img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.timing {
+    color: #888;
+}
+
+/* Hover effect */
+.contact-entry:hover {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-entry:hover .telephone-icon {
+    color: #555;
+}

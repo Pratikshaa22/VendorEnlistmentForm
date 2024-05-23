@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cottage-image {
+    width: 100%;
+    max-width: 90px;
+    margin-bottom: 20px;
+}
+
+.preview-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details p {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.buttons {
+    text-align: center;
+    display: inline-block;
+}
+
+.confirm-btn, .edit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.final-image-preview{
+    height:200px;
+    width:200px;
+}
+
+.upload-container {
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.upload-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.upload-preview {
+    display: inline-block;
+}
+
+.upload-preview img {
+    max-width: 100%;
+    height: auto;
+}

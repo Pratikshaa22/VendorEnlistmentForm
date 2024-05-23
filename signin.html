@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In Page</title>
+  <link rel="stylesheet" href="signin.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="signin-form">
+      <img src="login.jpeg" alt="Cottage Image" class="cottage-image" />
+      <h2 class="heading">Sign In</h2>
+      <form action="checkdb.php" method="post">
+        <label for="email" class="input-heading">Email</label>
+        <input
+          type="email"
+          class="input-field"
+          placeholder="Email"
+          name="email"
+          id="email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          title="Please enter a valid email address"
+          required
+        />
+        <label for="password" class="input-heading">Password</label>
+        <input
+          type="password"
+          class="input-field"
+          placeholder="Password"
+          name="password"
+          id="password"
+          required
+        />
+        <button type="submit" class="signin-btn">Sign In</button>
+      </form>
+      <a class="account" href="signup.html">Don't have an account? Sign up</a>
+    </div>
+  </div>
+</body>
+</html>
